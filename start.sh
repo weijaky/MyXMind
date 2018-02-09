@@ -4,6 +4,6 @@
 git status
 git add -A .
 git commit -m "update."
-ssh-agent bash
-ssh-add ~/.ssh/id_rsa_weijaky
+sh /usr/bin/ssh-agent bash
+sh /usr/bin/ssh-add ~/.ssh/id_rsa_weijaky
 git push jaky master
